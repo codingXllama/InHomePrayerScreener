@@ -1,0 +1,56 @@
+html,
+body {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  border: solid 2px rgba(215, 46, 46, 0.93);
+}
+
+.flex-container-prayer {
+  display: flex;
+  border: solid 2px rgba(24, 27, 24, 0.93);
+  justify-content: center;
+  min-width: 50%;
+  flex-wrap: wrap;
+}
+
+.prayer-flex-item {
+  color: rgba(255, 255, 255, 0.925);
+  background-color: #68758d;
+  font-size: 1.2em;
+  padding: 1em;
+  border-radius: 5%;
+  text-align: center;
+  margin: 0.7rem;
+}
+
+.flex-item:first-child {
+}
+
+.flex-item:nth-child(2) {
+}
+.flex-item:nth-child(3) {
+}
+
+.flex-item:nth-child(4) {
+}
+
+.flex-item:nth-child(5) {
+}
+
+.flex-item:nth-child(6) {
+}
